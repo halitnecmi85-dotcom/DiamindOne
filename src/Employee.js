@@ -136,13 +136,13 @@ const Employee = () => {
 
   const handleSaveEmployee = () => {
     if (!currentEmployee.name || !currentEmployee.position) {
-      alert('Lütfen en az ad ve pozisyon bilgilerini doldurun!');
+      alert('Lütfen en az ad ve pozisyon bilgilerini doldurunuz!');
       return;
     }
 
     // Validate unique username if provided
     if (currentEmployee.username && (employees.some(emp => emp.username === currentEmployee.username && emp.id !== currentEmployee.id))) {
-      alert('Bu kullanıcı adı zaten kullanılıyor. Lütfen farklı bir kullanıcı adı seçin.');
+      alert('Bu kullanıcı adı zaten kullanılıyor. Lütfen farklı bir kullanıcı adı seçiniz.');
       return;
     }
 
