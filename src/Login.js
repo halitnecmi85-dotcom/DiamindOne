@@ -203,7 +203,7 @@ const Login = ({ onLogin }) => {
                     color: '#061161'
                   }}
                 >
-                  Kayıt Ol
+                  Kayıt Olun
                 </Link>
               </Typography>
             </Box>
