@@ -147,7 +147,7 @@ const Portal = () => {
                 <PeopleIcon />
               </Avatar>
               <Typography variant="h5" component="h2">
-                Klinik Çalışanlarımız
+                Klinik Çalışanları
               </Typography>
             </Box>
             <Divider sx={{ my: 2 }} />

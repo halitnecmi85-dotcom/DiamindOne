@@ -287,7 +287,7 @@ const HastaKayit = () => {
                       <TableCell><strong>Yaş</strong></TableCell>
                       <TableCell><strong>Cinsiyet</strong></TableCell>
                       <TableCell><strong>Telefon</strong></TableCell>
-                      <TableCell><strong>Veli</strong></TableCell>
+                      <TableCell><strong>Velisi</strong></TableCell>
                       <TableCell align="center"><strong>İşlemler</strong></TableCell>
                     </TableRow>
                   </TableHead>
